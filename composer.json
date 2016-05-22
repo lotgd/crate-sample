@@ -9,16 +9,16 @@
     },
     "repositories": [
         {
-            "type": "path",
-            "url": "../core"
+            "type": "vcs",
+            "url": "https://github.com/lotgd/core"
         },
         {
-            "type": "path",
-            "url": "../module-helloworld"
+            "type": "vcs",
+            "url": "https://github.com/lotgd/module-helloworld"
         }
     ],
     "require": {
-        "lotgd/core": "dev-feature/config-change",
+        "lotgd/core": "dev-master",
         "lotgd/module-helloworld": "dev-master"
     }
 }

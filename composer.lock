@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c9a25e0425281a1aa2d306ef90c68764",
-    "content-hash": "73001a89b5f73b3ce1169bb644ef5277",
+    "hash": "dd4e593bf0eed7957f7874af79a664a4",
+    "content-hash": "3e2dcf007216a54682775cf5a08aa0aa",
     "packages": [
         {
             "name": "behat/transliterator",
@@ -1048,12 +1048,17 @@
         },
         {
             "name": "lotgd/core",
-            "version": "dev-feature/config-change",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lotgd/core.git",
+                "reference": "090beed91ae215ebe2c46dc08508903448a516cd"
+            },
             "dist": {
-                "type": "path",
-                "url": "../core/",
+                "type": "zip",
+                "url": "https://api.github.com/repos/lotgd/core/zipball/090beed91ae215ebe2c46dc08508903448a516cd",
                 "reference": "090beed91ae215ebe2c46dc08508903448a516cd",
-                "shasum": null
+                "shasum": ""
             },
             "require": {
                 "composer/composer": "*",
@@ -1075,16 +1080,26 @@
             "license": [
                 "AGPL-3.0"
             ],
-            "description": "Core functionality for Legend of the Green Dragon, a text-based RPG game."
+            "description": "Core functionality for Legend of the Green Dragon, a text-based RPG game.",
+            "support": {
+                "source": "https://github.com/lotgd/core/tree/master",
+                "issues": "https://github.com/lotgd/core/issues"
+            },
+            "time": "2016-05-22 04:43:33"
         },
         {
             "name": "lotgd/module-helloworld",
             "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lotgd/module-helloworld.git",
+                "reference": "c212cb00c2f9b710342b176e0922b824ea5a5431"
+            },
             "dist": {
-                "type": "path",
-                "url": "../module-helloworld/",
-                "reference": "5efd9155b91fb794ab1b86f36578bec79a6d5a9c",
-                "shasum": null
+                "type": "zip",
+                "url": "https://api.github.com/repos/lotgd/module-helloworld/zipball/c212cb00c2f9b710342b176e0922b824ea5a5431",
+                "reference": "c212cb00c2f9b710342b176e0922b824ea5a5431",
+                "shasum": ""
             },
             "type": "lotgd-module",
             "extra": {
@@ -1109,7 +1124,12 @@
                     "email": "austen.mcdonald@gmail.com"
                 }
             ],
-            "description": "Example module to get contributors started."
+            "description": "Example module to get contributors started.",
+            "support": {
+                "source": "https://github.com/lotgd/module-helloworld/tree/master",
+                "issues": "https://github.com/lotgd/module-helloworld/issues"
+            },
+            "time": "2016-05-22 05:06:46"
         },
         {
             "name": "monolog/monolog",
