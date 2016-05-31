@@ -3,7 +3,7 @@
 ## Do initial setup
 ```
 touch db/database.sqlite
-env $(cat .env | xargs) php install.php
+env $(cat .env | xargs) vendor/bin/daenerys module:register
 ```
 
 ## Run the crate
