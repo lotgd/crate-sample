@@ -2,9 +2,10 @@
     "name": "lotgd/crate-sample",
     "description": "Sample crate to demonstrate how to wrap the core.",
     "license": "AGPL-3.0",
+    "type": "lotgd-crate",
     "autoload": {
         "psr-4": {
-            "LotGD\\Crate\\Sample\\": "src/"
+            "LotGD\\Crates\\Sample\\": "src/"
         }
     },
     "repositories": [
