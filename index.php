@@ -24,7 +24,7 @@ class SampleBootstrap extends Bootstrap
     }
 }
 
-$g = (new SampleBootstrap())->getGame();
+$g = (new SampleBootstrap())->getGame(getcwd());
 
 // Publish an event so the HelloWorld module can respond.
 $context = array();

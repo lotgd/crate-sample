@@ -10,16 +10,23 @@
     },
     "repositories": [
         {
-            "type": "vcs",
-            "url": "https://github.com/lotgd/core"
+            "type": "composer",
+            "url": "http://code.lot.gd"
+        },
+        {
+            "type": "path",
+            "url": "../module-scene-editor"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/lotgd/module-helloworld"
+            "url": "https://github.com/austenmc/tree-printer"
         }
     ],
     "require": {
-        "lotgd/core": "dev-master",
-        "lotgd/module-helloworld": "dev-master"
+        "lotgd/core": "0.1.0-alpha",
+        "lotgd/module-scene-editor": "dev-master"
+    },
+    "config": {
+        "secure-http": false
     }
 }
